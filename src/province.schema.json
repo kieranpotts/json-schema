@@ -1,0 +1,35 @@
+{
+  "$id": "https://kieranpotts.com/province.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Province",
+  "description": "A state or province code, based on ISO 3166-2 definitions.",
+  "type": "object",
+  "required": [
+    "province_code",
+    "country_code"
+  ],
+  "properties": {
+    "province_code": {
+      "type": "string",
+      "description": "State or province code, as defined in ISO 3166-2. For example, US-CA, CN-11, GB-CAM, and so on.",
+      "maxLength": 6,
+      "minLength": 5,
+      "pattern": "^[A-Z]{2}-([A-Z]{2,3}|[0-9]{2,3})$"
+    },
+    "country_code": {
+      "$ref": "country-code.schema.json"
+    },
+    "local_name": {
+      "type": "string",
+      "description": "Local province name. For example, California, Northern Ireland, 東京都, 北京, Москва́, and so on."
+    },
+    "latin_name": {
+      "type": "string",
+      "description": "Optional Latin or international province name, if local name is in non-Latin script. For example, 'Tokyo' for the local name '東京都', or 'Beijing' for '北京', or 'Moscow' for 'Москва́'."
+    },
+    "abbreviation": {
+      "type": "string",
+      "description": "Abbreviation, if required. For example, `CA` for California."
+    }
+  }
+}

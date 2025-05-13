@@ -1,0 +1,40 @@
+{
+  "$id": "https://kieranpotts.com/person-name.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Name of a person",
+  "description": "Name of a person, split into prefix, given name, middle name, surname, and suffix. Also includes an optional input for an alternative full name.",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "prefix": {
+      "type": "string",
+      "description": "Prefix or title.",
+      "maxLength": 140
+    },
+    "given_name": {
+      "type": "string",
+      "description": "First name or given name.",
+      "maxLength": 140
+    },
+    "surname": {
+      "type": "string",
+      "description": "Surname, last name, or family name. This field can also be used to store multiple surnames including matronymic surname, or mother's family name.",
+      "maxLength": 140
+    },
+    "middle_name": {
+      "type": "string",
+      "description": "Middle name or names. This field can also be used to store multiple middle names including patronymic name.",
+      "maxLength": 140
+    },
+    "suffix": {
+      "type": "string",
+      "description": "Suffix or suffixes. Can be used for generational suffixes such as Jr. and Sr., and professional suffixes such as MD and PhD.",
+      "maxLength": 140
+    },
+    "alternate_full_name": {
+      "type": "string",
+      "description": "An optional alternate full name for the person. This field may be used for a nickname or a former name. This field can also be used to record yomikata or phonetic name in Japanese.",
+      "maxLength": 300
+    }
+  }
+}

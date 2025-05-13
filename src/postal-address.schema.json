@@ -1,0 +1,91 @@
+{
+  "$id": "https://kieranpotts.com/address.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Postal address",
+  "description": "Portable international postal address with medium-grained fields. This schema maps to Google's open source AddressValidationMetadata (https://github.com/googlei18n/libaddressinput/wiki/AddressValidationMetadata) and to HTML 5.1 autocomplete fields (https://www.w3.org/TR/html51/semantics.html#attr-fe-autocomplete-street-address). ",
+  "type": "object",
+  "required": [
+    "country_code"
+  ],
+  "properties": {
+    "address_line_1": {
+      "type": "string",
+      "description": "Line 1 of the address (eg. number, street, etc). Example: '173 Drury Lane'.",
+      "maxLength": 300
+    },
+    "address_line_2": {
+      "type": "string",
+      "description": "Optional line 2 of the address (eg. suite, apt #, etc.).",
+      "maxLength": 300
+    },
+    "address_line_3": {
+      "type": "string",
+      "description": "Optional Line 3 of the address. May be used for street complement for Brazil, or direction text for India (eg. 'next to Walmart').",
+      "maxLength": 300
+    },
+    "admin_area_4": {
+      "description": "May be neighborhood, ward or district. Smaller than admin_area_level_3 and sub_locality. Use this for the postal sorting code in Guernsey and many French territories such as French Guiana, and fine-grained administrative levels in China.",
+      "type": "string",
+      "maxLength": 300
+    },
+    "admin_area_3": {
+      "description": "Usually sub-locality, suburb, neighborhood, or district. Smaller than admin_area_level_2. Use this for a bairro/neighborhood in Brazil. In India, street name information is often not available, but a sublocality/district can be a very small area.",
+      "type": "string",
+      "maxLength": 300
+    },
+    "admin_area_2": {
+      "description": "Usually city, town or village. Smaller than admin_area_level_1.",
+      "type": "string",
+      "maxLength": 300
+    },
+    "admin_area_1": {
+      "type": "string",
+      "description": "This is the highest-level subdivision of a country, and usually corresponds to a province, state, or ISO-3166-2 subdivision. This will be a state in the USA, a province in Canada, a prefecture in Japan, a kanton in Switzerland, and a county in UK. This would be expected to be the form that would appear in addresses formatted for postal delivery, eg. 'CA' not 'California'.",
+      "maxLength": 300
+    },
+    "postal_code": {
+      "type": "string",
+      "description": "Postal code.",
+      "maxLength": 60
+    },
+    "country_code": {
+      "$ref": "country-code.schema.json"
+    },
+    "address_details": {
+      "type": "object",
+      "description": "Additional address details sometimes needed for compliance, risk, and other scenarios where fine-grain or high-resolution address information may be needed.",
+      "properties": {
+        "street_number": {
+          "description": "Street number.",
+          "type": "string",
+          "maxLength": 300
+        },
+        "street_name": {
+          "description": "Street name.  Just 'Drury' in 'Drury Lane'. If the street type is not available from a address service, then this should contain both the street name and type – 'Drury Lane'.",
+          "type": "string",
+          "maxLength": 300
+        },
+        "street_type": {
+          "description": "The street type, eg. 'Street', 'Lane', 'Boulevard', 'Court', etc.",
+          "type": "string",
+          "maxLength": 300
+        },
+        "delivery_service": {
+          "description": "Delivery service. May be a post office box, post office name, bag number, etc.",
+          "type": "string",
+          "maxLength": 300
+        },
+        "building_name": {
+          "description": "The building name or number, or other named location that identifies the premises. Example: 'Craven House'.",
+          "type": "string",
+          "maxLength": 300
+        },
+        "sub_building": {
+          "description": "Sub-premise. First-order entity below a named building or location, usually a singular building within a collection of buildings with a common name, or could be flat, storey, floor, unit number, room and/or apartment.",
+          "type": "string",
+          "maxLength": 300
+        }
+      }
+    }
+  }
+}

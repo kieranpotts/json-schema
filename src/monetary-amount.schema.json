@@ -1,0 +1,22 @@
+{
+  "$id": "https://kieranpotts.com/monetary-amount.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Monetary amount",
+  "description": "A specific quantity of money, expressing in a currency such as USD ($), GBP (£), EUR (€), or JPY (¥). Typically used to represent a financial value in transactions, accounting, budgeting, or economic analysis.",
+  "type": "object",
+  "required": [
+    "currency_code",
+    "value"
+  ],
+  "properties": {
+    "currency_code": {
+      "$ref": "currency-code.schema.json"
+    },
+    "value": {
+      "type": "string",
+      "description": "The value, which could be an integer (for currencies that are not typically fractional such as JPY), a three-place decimal fraction (for currencies that are subdivided into thousands such as TND, or an eight-place decimal fraction (for currencies such as Bitcoin). See ISO 4217 for the required number of decimal places for each currency.",
+      "maxLength": 32,
+      "pattern": "^((-?[0-9]+)|(-?([0-9]+)?[.][0-9]+))$"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$id": "https://kieranpotts.com/telephone-type.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Telephone type",
+  "description": "Telephone numbers may be associated with fixed line, mobile, fax, or other types of telephone connections and devices.",
+  "type": "string",
+  "enum": [
+    "FAX",
+    "HOME",
+    "MOBILE",
+    "OTHER",
+    "PAGER"
+  ]
+}

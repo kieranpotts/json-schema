@@ -1,0 +1,9 @@
+{
+  "$id": "https://kieranpotts.com/timezone.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Timezone",
+  "description": "Timezone in the format defined in the IANA timezone database (https://www.iana.org/time-zones). Valid examples include 'America/New_York' and 'Etc/UTC'. Invalid examples include non-qualified values such as 'EST' and 'GB'.",
+  "type": "string",
+  "minLength": 1,
+  "maxLength": 127
+}

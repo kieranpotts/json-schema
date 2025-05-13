@@ -1,0 +1,44 @@
+{
+  "$id": "https://kieranpotts.com/json-patch-item.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JSON Patch item",
+  "description": "A JSON Patch object, which is used to apply partial updates to resources in HTTP APIs.",
+  "type": "object",
+  "required": [
+    "op"
+  ],
+  "properties": {
+    "op": {
+      "type": "string",
+      "description": "The operation to perform.",
+      "enum": [
+        "add",
+        "remove",
+        "replace",
+        "move",
+        "copy",
+        "test"
+      ]
+    },
+    "path": {
+      "type": "string",
+      "description": "A JSON pointer to a location within the target document where the operation is to be performed."
+    },
+    "value": {
+      "type": [
+        "array",
+        "integer",
+        "boolean",
+        "null",
+        "number",
+        "object",
+        "string"
+      ],
+      "description": "The new value to be applied by the operation. The 'remove' operation does not require a value."
+    },
+    "from": {
+      "type": "string",
+      "description": "A JSON pointer value to the location in the target document from which to move the value. Required only for the 'move' operation."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$id": "https://kieranpotts.com/geocoordinates.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Geocoordinates",
+  "description": "Latitude and longitude coordinates, expressed in decimal degrees.",
+  "type": "object",
+  "required": [
+    "longitude",
+    "latitude"
+  ],
+  "properties":{
+    "longitude":{
+      "type":"string",
+      "pattern":"^-?([1]?[1-7][1-9]|[1]?[1-8][0]|[1-9]?[0-9])\\.{1}\\d{1,6}"
+    },
+    "latitude":{
+      "type":"string",
+      "pattern":"^-?([1-8]?[1-9]|[1-9]0)\\.{1}\\d{1,6}"
+    }
+  }
+}

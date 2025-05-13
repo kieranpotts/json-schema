@@ -1,0 +1,10 @@
+{
+  "$id": "https://kieranpotts.com/date-year-month.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Date (year and month only)",
+  "description": "A seven-character string representing a year and month in the ISO 8601 YYYY-MM date format. This is a floating time and considered to be timezone independent.",
+  "type": "string",
+  "minLength": 7,
+  "maxLength": 7,
+  "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$"
+}

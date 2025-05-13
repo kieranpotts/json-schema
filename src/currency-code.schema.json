@@ -1,0 +1,9 @@
+{
+  "$id": "https://kieranpotts.com/currency-code.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Currency code",
+  "description": "Three-letter ISO 4217 alphabetical currency code.",
+  "type": "string",
+  "minLength": 3,
+  "maxLength": 3
+}

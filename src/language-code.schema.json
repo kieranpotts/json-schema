@@ -1,0 +1,10 @@
+{
+  "$id": "https://kieranpotts.com/language-code.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Language code",
+  "description": "BCP-47 language tag, which is composed of an ISO-639 alpha-2 language code, a ISO-15924 script tag, and a ISO-3166 alpha-2 country code. ",
+  "type": "string",
+  "maxLength": 10,
+  "minLength": 2,
+  "pattern": "^[a-z]{2}(?:-[A-Z][a-z]{3})?(?:-(?:[A-Z]{2}))?$"
+}

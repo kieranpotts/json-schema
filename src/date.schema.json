@@ -1,0 +1,10 @@
+{
+  "$id": "https://kieranpotts.com/date.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Date (no time)",
+  "description": "A standalone date, as represented by the full-date chunk specified in IETF RFC 3339 section 5.6. Dates with no associated time or timezone are typically used to represent dates of birth, etc. Note: the regular expression is not a complete validation; 31 February is allowed, for example, and nothing is known about leap years.",
+  "type": "string",
+  "minLength": 10,
+  "maxLength": 10,
+  "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$"
+}

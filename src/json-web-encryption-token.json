@@ -1,0 +1,10 @@
+{
+  "$id": "https://kieranpotts.com/json-web-encryption-token.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JSON Web Encryption (JWE) token",
+  "description": "JWE token, usd to represent encrypted values, as specified in IETF RFC 7516 (https://www.rfc-editor.org/rfc/rfc7516.txt).",
+  "type": "string",
+  "minLength": 6,
+  "pattern": "([A-Za-z0-9_-]+)[.](([A-Za-z0-9_-]*)[.]){2}([A-Za-z0-9_-]+)[.]([A-Za-z0-9_-]*)"
+
+}
