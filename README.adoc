@@ -2,3 +2,7 @@
 
 This repository contains a collection of common JSON Schema type definitions.
 
+
+''''
+
+Copyright © 2020-present Kieran Potts, link:./LICENSE.txt[MIT license]
