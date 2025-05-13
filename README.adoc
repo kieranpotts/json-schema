@@ -1,0 +1,4 @@
+= JSON Schema
+
+This repository contains a collection of common JSON Schema type definitions.
+
