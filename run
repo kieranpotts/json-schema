@@ -16,6 +16,11 @@
 #
 set -e
 
+# Build a container image from the Dockerfile in the current directory.
+# Name the image "json-schema".
+#
+docker build -t json-schema .
+
 # Run a container in interactive mode (-it) and named "json-schema", built from
 # the image "json-schema". Remove (--rm) old containers with the same name, so
 # we're not left with a bunch of stopped, unused containers.
