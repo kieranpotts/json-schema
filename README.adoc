@@ -2,6 +2,33 @@
 
 This repository contains a collection of common JSON Schema type definitions.
 
+== Testing
+
+Tests can be run in a containerized environment. The only requirement is that you have *Docker* installed on your system. All other dependencies will be installed in the container.
+
+There are three Bash scripts to automate the execution of tests in. First, make sure these are executable:
+
+----
+chmod +x build cleanup run
+----
+
+To build the container, run:
+
+----
+./build
+----
+
+To run the tests:
+
+----
+./run test
+----
+
+To cleanup unused images when you're done:
+
+----
+./cleanup
+----
 
 ''''
 
