@@ -43,6 +43,10 @@
   "javascript.validate.enable": false,
   "js/ts.implicitProjectConfig.checkJs": false,
 
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+
   /* Don't allow commits to protected branches. */
   "git.branchProtectionPrompt": "alwaysPrompt",
   "git.branchProtection": [
