@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# ==============================================================================
+# Run any NPM script in a container named "json-schema" from an image built from
+# the Dockerfile in this directory.
+#
+# Usage:
+#   ./run <script> [<script-args>]
+#
+# Example - to run the tests:
+#   ./run test
+# ==============================================================================
+
+# Immediately exit from this script if any command within it returns a
+# non-zero exit status (indicating an error).
+#
+set -e
+
+# Run a container in interactive mode (-it) and named "json-schema", built from
+# the image "json-schema". Remove (--rm) old containers with the same name, so
+# we're not left with a bunch of stopped, unused containers.
+#
+# In the container, execute `npm run` followed by any arguments passed to
+# this script.
+#
+docker run -it --name json-schema --rm json-schema npm run ${@:1}
