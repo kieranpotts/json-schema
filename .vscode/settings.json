@@ -49,8 +49,14 @@
   "js/ts.implicitProjectConfig.checkJs": false,
 
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
   },
+
+  /* Preference for quotes in JS/TS code. */
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
 
   /* Don't allow commits to protected branches. */
   "git.branchProtectionPrompt": "alwaysPrompt",
