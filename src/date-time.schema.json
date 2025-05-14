@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/date-time.schema.json",
+  "$id": "https://kieranpotts.com/schema/date-time.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Date and time",
   "description": "A valid date-time representation as defined in IETF RFC 3339 section 5.6 (which itself is a profile of the ISO 8601 standard). Note: the regular expression cannot reject all invalid dates, but only provide guidance. A practical length limit is defined for the number of fractional seconds.",

@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/address.schema.json",
+  "$id": "https://kieranpotts.com/schema/address.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Postal address",
   "description": "Portable international postal address with medium-grained fields. This schema maps to Google's open source AddressValidationMetadata (https://github.com/googlei18n/libaddressinput/wiki/AddressValidationMetadata) and to HTML 5.1 autocomplete fields (https://www.w3.org/TR/html51/semantics.html#attr-fe-autocomplete-street-address). ",

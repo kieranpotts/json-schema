@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/json-web-signature-token.schema.json",
+  "$id": "https://kieranpotts.com/schema/json-web-signature-token.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "JSON Web Signature (JWS) token",
   "description": "JSW token, used to represent signed content, as specified in IETF RFC 7515 (https://www.rfc-editor.org/rfc/rfc7515.txt).",
