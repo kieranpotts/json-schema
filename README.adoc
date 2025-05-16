@@ -2,6 +2,8 @@
 
 This repository contains a collection of common JSON Schema type definitions.
 
+image:https://img.shields.io/github/actions/workflow/status/kieranpotts/json-schema/run-tests.yaml?branch=dev&style=for-the-badge[GitHub Actions Workflow Status]
+
 == Testing
 
 Tests can be run in a containerized environment. The only requirement is that you have *Docker* installed on your system. All other dependencies will be installed in the container.
