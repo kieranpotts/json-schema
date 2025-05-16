@@ -18,11 +18,24 @@ describe('Country code', () => {
     expect(validate.errors).toBeNull()
   })
 
-  it('invalidates an invalid country code', () => {
-    const data = 'XYZ';
+  const invalid_data = [
+    '',
+    'XYZ',
+    '123',
+    'G',
+    'GBR',
+    'gB',
+    'GB1',
+    'GB-',
+    null,
+    undefined,
+    {},
+    []
+  ]
 
+  test.each(invalid_data)('invalidates invalid country code: %p', (data) => {
     const validate = ajv.compile(schema)
-    const isValid = validate(data);
+    const isValid = validate(data)
 
     expect(isValid).toBe(false)
     expect(validate.errors).not.toBeNull()
