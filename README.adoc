@@ -2,7 +2,13 @@
 
 This repository contains a collection of common JSON Schema type definitions.
 
-image:https://img.shields.io/github/actions/workflow/status/kieranpotts/json-schema/run-tests.yaml?branch=dev&style=for-the-badge[GitHub Actions Workflow Status]
+image:https://img.shields.io/github/actions/workflow/status/kieranpotts/json-schema/run-tests.yaml?branch=dev&style=flat-square&label=tests&labelColor=%23333333&color=%23008800[]
+
+== Schemas
+
+The following schemas are available:
+
+* `common.json` - Common JSON Schema types
 
 == Testing
 
