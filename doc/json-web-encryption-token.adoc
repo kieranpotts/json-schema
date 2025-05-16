@@ -1,0 +1,5 @@
+= JSON Web Encryption (JWE) token
+
+****
+Schema: link:../src/json-web-encryption-token.schema.json[json-web-encryption-token.schema.json]
+****

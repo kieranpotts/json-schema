@@ -1,0 +1,5 @@
+= Payment card expiration date
+
+****
+Schema: link:../src/payment-card-expiration-date.schema.json[payment-card-expiration-date.schema.json]
+****

@@ -1,0 +1,5 @@
+= Province
+
+****
+Schema: link:../src/province.schema.json[province.schema.json]
+****

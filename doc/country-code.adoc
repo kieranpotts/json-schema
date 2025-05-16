@@ -1,0 +1,5 @@
+= Country code
+
+****
+Schema: link:../src/country-code.schema.json[country-code.schema.json]
+****

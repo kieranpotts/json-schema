@@ -1,0 +1,5 @@
+= Person name
+
+****
+Schema: link:../src/person-name.schema.json[oerson-name.schema.json]
+****

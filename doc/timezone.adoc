@@ -1,0 +1,5 @@
+= Timezone
+
+****
+Schema: link:../src/timezone.schema.json[timezone.schema.json]
+****

@@ -1,0 +1,5 @@
+= Monetary amount
+
+****
+Schema: link:../src/monetary-amount.schema.json[monetary-amount.schema.json]
+****

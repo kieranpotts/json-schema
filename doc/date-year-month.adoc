@@ -1,0 +1,5 @@
+= Date (year and month only)
+
+****
+Schema: link:../src/date-year-month.schema.json[date-year-month.schema.json]
+****

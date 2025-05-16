@@ -8,7 +8,30 @@ image:https://img.shields.io/github/actions/workflow/status/kieranpotts/json-sch
 
 The following schemas are available:
 
-* `common.json` - Common JSON Schema types
+* link:./doc/country-code.adoc[Country code]
+* link:./doc/currency-code.adoc[Currency code]
+* link:./doc/date-time.adoc[Date and time]
+* link:./doc/date-year-month.adoc[Date (year and month only)]
+* link:./doc/date.adoc[Date (no time)]
+* link:./doc/duration.adoc[Duration]
+* link:./doc/email-address.adoc[Email address]
+* link:./doc/geocoordinates.adoc[Geocoordinates]
+* link:./doc/json-patch-item.adoc[JSON Patch item]
+* link:./doc/json-web-encryption-token.adoc[JSON Web Encryption (JWE) token]
+* link:./doc/json-web-signature-token.adoc[JSON Web Signature (JWS) token]
+* link:./doc/language-code.adoc[Language code]
+* link:./doc/locale.adoc[Locale]
+* link:./doc/monetary-amount.adoc[Monetary amount]
+* link:./doc/payment-card-expiration-date.adoc[Payment card expiration date]
+* link:./doc/percentage.adoc[Percentage]
+* link:./doc/person-name.adoc[Person name]
+* link:./doc/postal-address.adoc[Postal address]
+* link:./doc/province.adoc[Province]
+* link:./doc/telephone-number.adoc[Telephone number]
+* link:./doc/telephone-type.adoc[Telephone type]
+* link:./doc/time.adoc[Time (no date)]
+* link:./doc/timezone.adoc[Timezone]
+* link:./doc/uuid.adoc[UUID]
 
 == Testing
 

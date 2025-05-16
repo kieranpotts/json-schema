@@ -1,0 +1,5 @@
+= JSON Patch item
+
+****
+Schema: link:../src/json-patch-item.schema.json[json-patch-item.schema.json]
+****

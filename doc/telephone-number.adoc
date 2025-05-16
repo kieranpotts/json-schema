@@ -1,0 +1,5 @@
+= Telephone number
+
+****
+Schema: link:../src/telephone-number.schema.json[telephone-number.schema.json]
+****

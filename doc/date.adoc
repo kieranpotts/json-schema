@@ -1,0 +1,5 @@
+= Date (no time)
+
+****
+Schema: link:../src/date.schema.json[date.schema.json]
+****

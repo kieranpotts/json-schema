@@ -1,0 +1,5 @@
+= Duration
+
+****
+Schema: link:../src/duration.schema.json[duration.schema.json]
+****

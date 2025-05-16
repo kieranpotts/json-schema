@@ -1,0 +1,5 @@
+= Language code
+
+****
+Schema: link:../src/language-code.schema.json[language-code.schema.json]
+****

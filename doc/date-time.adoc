@@ -1,0 +1,5 @@
+= Date and time
+
+****
+Schema: link:../src/date-time.schema.json[date-time.schema.json]
+****

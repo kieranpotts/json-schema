@@ -1,0 +1,5 @@
+= Geocoordinates
+
+****
+Schema: link:../src/geocoordinates.schema.json[geocoordinates.schema.json]
+****

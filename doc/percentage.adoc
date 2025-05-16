@@ -1,0 +1,5 @@
+= Percentage
+
+****
+Schema: link:../src/percentage.schema.json[percentage.schema.json]
+****

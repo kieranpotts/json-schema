@@ -1,0 +1,5 @@
+= Telephone type
+
+****
+Schema: link:../src/telephone-type.schema.json[telephone-type.schema.json]
+****

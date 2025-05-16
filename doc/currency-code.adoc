@@ -1,0 +1,5 @@
+= Currency code
+
+****
+Schema: link:../src/currency-code.schema.json[currency-code.schema.json]
+****

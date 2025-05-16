@@ -1,0 +1,5 @@
+= UUID
+
+****
+Schema: link:../src/uuid.schema.json[uuid.schema.json]
+****

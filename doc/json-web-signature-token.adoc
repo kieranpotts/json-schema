@@ -1,0 +1,5 @@
+= JSON Web Signature (JWS) token
+
+****
+Schema: link:../src/json-web-signature-token.schema.json[json-web-signature-token.schema.json]
+****

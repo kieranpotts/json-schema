@@ -1,0 +1,5 @@
+= Email address
+
+****
+Schema: link:../src/email-address.schema.json[email-address.schema.json]
+****

@@ -1,0 +1,5 @@
+= Locale
+
+****
+Schema: link:../src/locale.schema.json[locale.schema.json]
+****
