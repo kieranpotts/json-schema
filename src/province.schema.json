@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/province.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/province.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Province",
   "description": "A state or province code, based on ISO 3166-2 definitions.",

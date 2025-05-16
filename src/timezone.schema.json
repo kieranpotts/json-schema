@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/timezone.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/timezone.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Timezone",
   "description": "Timezone in the format defined in the IANA timezone database (https://www.iana.org/time-zones). Valid examples include 'America/New_York' and 'Etc/UTC'. Invalid examples include non-qualified values such as 'EST' and 'GB'.",

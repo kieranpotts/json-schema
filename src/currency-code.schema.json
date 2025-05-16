@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/currency-code.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/currency-code.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Currency code",
   "description": "Three-letter ISO 4217 alphabetical currency code.",

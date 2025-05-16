@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/geocoordinates.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/geocoordinates.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Geocoordinates",
   "description": "Latitude and longitude coordinates, expressed in decimal degrees.",

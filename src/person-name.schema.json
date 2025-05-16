@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/person-name.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/person-name.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Person name",
   "description": "Name of a person, split into prefix, given name, middle name, surname, and suffix. Also includes an optional input for an alternative full name.",

@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/language-code.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/language-code.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Language code",
   "description": "BCP-47 language tag, which is composed of an ISO-639 alpha-2 language code, a ISO-15924 script tag, and a ISO-3166 alpha-2 country code. ",

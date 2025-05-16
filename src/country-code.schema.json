@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/country-code.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/country-code.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Country code",
   "description": "ISO 3166-1 alpha-2 country code (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).",

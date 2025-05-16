@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/duration.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/duration.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Duration",
   "description": "A duration expressed in terms of years, months, weeks, days, hours, minutes, and seconds, and formatted according to the ISO 8601 standard (PyYmMdDThHmMsS).",

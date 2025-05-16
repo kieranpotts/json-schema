@@ -1,5 +1,5 @@
 {
-  "$id": "https://kieranpotts.com/schema/percentage.schema.json",
+  "$id": "https://kieranpotts.com/schema/v0/percentage.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Percentage",
   "description": "Percentage value, as a fixed-point, signed decimal number. Valid number formats are decimal number and whole numbers (integers). Applications MUST NOT deserialize this value into a JavaScript Number object, which is a 64-bit floating-point number and therefore cannot accurately represent all values transmitted by this type. In Java, this type MUST be deserialized into a BigDecimal or other fixed-point numeric type. ",
