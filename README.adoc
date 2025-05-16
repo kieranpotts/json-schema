@@ -8,6 +8,7 @@ image:https://img.shields.io/github/actions/workflow/status/kieranpotts/json-sch
 
 The following schemas are available:
 
+* link:./doc/address.adoc[Address]
 * link:./doc/country-code.adoc[Country code]
 * link:./doc/currency-code.adoc[Currency code]
 * link:./doc/date-time.adoc[Date and time]
@@ -25,7 +26,6 @@ The following schemas are available:
 * link:./doc/payment-card-expiration-date.adoc[Payment card expiration date]
 * link:./doc/percentage.adoc[Percentage]
 * link:./doc/person-name.adoc[Person name]
-* link:./doc/postal-address.adoc[Postal address]
 * link:./doc/province.adoc[Province]
 * link:./doc/telephone-number.adoc[Telephone number]
 * link:./doc/telephone-type.adoc[Telephone type]

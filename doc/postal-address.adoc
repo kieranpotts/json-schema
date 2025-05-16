@@ -1,6 +1,0 @@
-= Postal address
-
-****
-Schema: link:../src/postal-address.schema.json[postal-address.schema.json]
-****
-

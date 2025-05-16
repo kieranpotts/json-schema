@@ -1,0 +1,6 @@
+= Address
+
+****
+Schema: link:../src/address.schema.json[address.schema.json]
+****
+
