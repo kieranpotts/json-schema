@@ -29,3 +29,8 @@ docker build -t json-schema .
 # this script.
 #
 docker run -it --name json-schema --rm json-schema npm run ${@:1}
+
+# Clean-up containers and images.
+#
+docker rm -f json-schema
+docker rmi -f json-schema
