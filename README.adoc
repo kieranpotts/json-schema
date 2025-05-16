@@ -35,7 +35,7 @@ The following schemas are available:
 
 == Testing
 
-Tests can be run in a containerized environment. The only requirement is that you have *Docker* installed on your system. All other dependencies will be installed in the container.
+Tests can be run in a containerized environment. The only requirement is that you have *Docker* installed and running on your system. All other dependencies will be installed in the container.
 
 First, make sure the `run` script, in the root directory of this repository, is executable:
 
