@@ -3,3 +3,19 @@
 ****
 Schema: link:../src/uuid.schema.json[uuid.schema.json]
 ****
+
+This schema defines a UUID, as specified in https://tools.ietf.org/html/rfc4122[IETF RFC 4122].
+
+== Valid examples
+
+* `123e4567-e89b-12d3-a456-426614174000`
+* `96d2a9ea-7fc7-4576-b025-d027faecd293`
+* `ec07e993-08dc-4f7b-b97a-568ce3d33cc8`
+* `00000000-0000-0000-0000-000000000000` (nil UUID)
+* `FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF` (max UUID)
+
+== Invalid examples
+
+* `34dd08ca-c95a-4391-9909-d157c4bb4d2` (too short)
+* `12345678-90ab-cdef-1234-567890abcdefg` (too long)
+* `abcd-1234-efgh-5678-ijklmnopqrst` (invalid hyphen placement)

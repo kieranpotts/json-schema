@@ -2,7 +2,7 @@
   "$id": "https://kieranpotts.com/schema/v0/uuid.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "UUID",
-  "description": "A UUID in the format defined in IETF RFC 4122 (https://tools.ietf.org/html/rfc4122).",
+  "description": "A UUID in the format defined in IETF RFC 4122.",
   "type": "string",
   "minLength": 36,
   "maxLength": 36,
