@@ -3,3 +3,9 @@
 ****
 Schema: link:../src/currency-code.schema.json[currency-code.schema.json]
 ****
+
+This schema defines a three-letter currency code, as specified in https://www.iso.org/iso-4217-currency-codes.html[ISO 4217].
+
+== Valid examples
+
+* `USD`

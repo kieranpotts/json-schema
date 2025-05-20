@@ -2,7 +2,7 @@
   "$id": "https://kieranpotts.com/schema/v0/currency-code.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Currency code",
-  "description": "Three-letter ISO 4217 alphabetical currency code.",
+  "description": "Three-letter currency code as specified in ISO 4217.",
   "type": "string",
   "minLength": 3,
   "maxLength": 3
