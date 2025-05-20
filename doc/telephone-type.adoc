@@ -4,18 +4,10 @@
 Schema: link:../src/telephone-type.schema.json[telephone-type.schema.json]
 ****
 
-This schema defines a xxxxxxxxxxxxxx, as specified in https://example.com/[xxxxxx].
+This schema defines a telephone type, which must be one of:
 
-// Telephone numbers may be associated with fixed line, mobile, fax, or other types of telephone connections and devices.
-
-== Valid examples
-
-* ``
-* ``
-* ``
-
-== Invalid examples
-
-* ``
-* ``
-* ``
+* `"FAX"`
+* `"HOME"`
+* `"MOBILE"`
+* `"OTHER"`
+* `"PAGER"`
