@@ -8,9 +8,15 @@ describe('Country code', () => {
     ajv = new Ajv()
   })
 
-  it('validates a valid country code', () => {
-    const data = 'US'
+  const valid_data = [
+    'GB',
+    'US',
+    'CA',
+    'DE',
+    'FR',
+  ]
 
+  test.each(valid_data)('validates a valid country code: %p', (data) => {
     const validate = ajv.compile(schema)
     const isValid = validate(data)
 
@@ -33,7 +39,7 @@ describe('Country code', () => {
     []
   ]
 
-  test.each(invalid_data)('invalidates invalid country code: %p', (data) => {
+  test.each(invalid_data)('invalidates an invalid country code: %p', (data) => {
     const validate = ajv.compile(schema)
     const isValid = validate(data)
 

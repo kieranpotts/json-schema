@@ -4,7 +4,7 @@
 Schema: link:../src/country-code.schema.json[country-code.schema.json]
 ****
 
-This schema defines a two-letter country code, as defined by https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2].
+This schema defines a two-letter country code, as specified in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2[ISO 3166-1 alpha-2].
 
 == Valid examples
 
