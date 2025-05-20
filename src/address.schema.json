@@ -2,7 +2,7 @@
   "$id": "https://kieranpotts.com/schema/v0/address.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Address",
-  "description": "Portable international address with medium-grained fields. This schema maps to Google's open source AddressValidationMetadata (https://github.com/googlei18n/libaddressinput/wiki/AddressValidationMetadata) and to HTML 5.1 autocomplete fields (https://www.w3.org/TR/html51/semantics.html#attr-fe-autocomplete-street-address). ",
+  "description": "Physical or postal address of a person or business. This data structure is designed to support all international address formats.",
   "type": "object",
   "required": [
     "country_code"
