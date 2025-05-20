@@ -24,7 +24,7 @@ describe('UUID', () => {
     expect(validate.errors).toBeNull()
   })
 
-  it('validates a valid uuid: nil uuid', () => {
+  test('validates a valid uuid: nil uuid', () => {
     const data = '00000000-0000-0000-0000-000000000000'
 
     const validate = ajv.compile(schema)
@@ -34,7 +34,7 @@ describe('UUID', () => {
     expect(validate.errors).toBeNull()
   })
 
-  it('validates a valid uuid: max uuid', () => {
+  test('validates a valid uuid: max uuid', () => {
     const data = 'FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF'
 
     const validate = ajv.compile(schema)
@@ -44,7 +44,7 @@ describe('UUID', () => {
     expect(validate.errors).toBeNull()
   })
 
-  it('invalidates an invalid UUID: too short', () => {
+  test('invalidates an invalid UUID: too short', () => {
     const data = '34dd08ca-c95a-4391-9909-d157c4bb4d2'
 
     const validate = ajv.compile(schema)
@@ -54,7 +54,7 @@ describe('UUID', () => {
     expect(validate.errors).not.toBeNull()
   })
 
-  it('invalidates an invalid UUID: too long', () => {
+  test('invalidates an invalid UUID: too long', () => {
     const data = '12345678-90ab-cdef-1234-567890abcdefg'
 
     const validate = ajv.compile(schema)
@@ -64,7 +64,7 @@ describe('UUID', () => {
     expect(validate.errors).not.toBeNull()
   })
 
-  it('invalidates an invalid UUID: invalid hyphen placement', () => {
+  test('invalidates an invalid UUID: invalid hyphen placement', () => {
     const data = 'abcd-1234-efgh-5678-ijklmnopqrst'
 
     const validate = ajv.compile(schema)
