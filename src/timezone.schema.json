@@ -2,8 +2,9 @@
   "$id": "https://kieranpotts.com/schema/v0/timezone.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Timezone",
-  "description": "Timezone in the format defined in the IANA timezone database (https://www.iana.org/time-zones). Valid examples include 'America/New_York' and 'Etc/UTC'. Invalid examples include non-qualified values such as 'EST' and 'GB'.",
+  "description": "Timezone in the format defined in the IANA timezone database.",
   "type": "string",
   "minLength": 1,
-  "maxLength": 127
+  "maxLength": 127,
+  "pattern": "^(?:[A-Za-z_]+(?:/[A-Za-z0-9_+-]+)+|Etc/[A-Za-z_]+)$"
 }
