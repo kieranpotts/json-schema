@@ -2,7 +2,7 @@
   "$id": "https://kieranpotts.com/schema/v0/telephone-number.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Telephone number",
-  "description": "Telephone number, which must be represented in its canonical international format as defined by the E.164 numbering plan.",
+  "description": "Telephone number, expressed in the canonical international format as defined by the E.164 numbering plan.",
   "type": "object",
   "required": [
     "country_code",
