@@ -2,7 +2,7 @@
   "$id": "https://kieranpotts.com/schema/v0/monetary-amount.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Monetary amount",
-  "description": "A specific quantity of money, expressing in a currency such as USD ($), GBP (£), EUR (€), or JPY (¥). Typically used to represent a financial value in transactions, accounting, budgeting, or economic analysis.",
+  "description": "A quantity of money, expressed in a currency.",
   "type": "object",
   "required": [
     "currency_code",
