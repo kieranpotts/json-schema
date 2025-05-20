@@ -2,7 +2,7 @@
   "$id": "https://kieranpotts.com/schema/v0/payment-card-expiration-date.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Payment card expiration date",
-  "description": "Expiration month and year expressed as MM/YY or MM/YYYY. Typically used for credit card expiration. This value is time zone independent.",
+  "description": "Date and month expressed as MM/YY or MM/YYYY. Typically used for payment card expiration date.",
   "type": "string",
   "minLength": 5,
   "maxLength": 7,
