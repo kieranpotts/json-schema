@@ -2,7 +2,7 @@
   "$id": "https://kieranpotts.com/schema/v0/time.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Time (no date)",
-  "description": "A time value in a format specified in IETF RFC 3339 section 5.6, but with a practical length limit on the number of fractional seconds.",
+  "description": "A time value in a format specified in IETF RFC 3339.",
   "type": "string",
   "minLength": 9,
   "maxLength": 64,
