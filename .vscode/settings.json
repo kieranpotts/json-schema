@@ -1,5 +1,4 @@
 {
-
   /* Vertical guidelines for line wrapping. */
   "editor.rulers": [
     80,
@@ -7,11 +6,30 @@
     120,
   ],
 
-  /* Wrap long code lines at the viewport or 120 characters, whichever is
-  narrowest. For documentation, the boundary is a bit narrower. */
+  /* By default, wrap long lines at the viewport or 120 characters, whichever is narrowest. */
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,
 
+  /* Show control and empty space characters. */
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+
+  /* Enforce 2 spaces for indentation by default. */
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+
+  /* Disable auto-formatting by default. */
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+
+  /* Disable auto-fixes by default. */
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never"
+  },
+
+  /* Language-specific overrides. */
   "[asciidoc]": {
     "editor.rulers": [100],
     "editor.wordWrap": "bounded",
@@ -23,46 +41,13 @@
     "editor.wordWrapColumn": 100,
   },
 
-  /* Enforce 2 spaces for indentation. */
-  "editor.detectIndentation": false,
-  "editor.insertSpaces": true,
-  "editor.tabSize": 2,
-
-  /* Show control and empty space characters. */
-  "editor.renderControlCharacters": true,
-  "editor.renderWhitespace": "all",
-
-  /* Enable all auto-formatting mechanisms. */
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
-
-  /* Enable auto-fixes. */
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "always",
-  },
-
-  /* For JS/TS code, formatting and validation MUST be configured per-repo,
-  AND per-workspace where multiple JS/TS repos are part of a larger project. */
-  "javascript.format.enable": false,
-  "javascript.validate.enable": false,
-  "js/ts.implicitProjectConfig.checkJs": false,
-
-  "[javascript]": {
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
-    "editor.formatOnType": false,
-  },
-
   /* Preference for quotes in JS/TS code. */
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
 
-  /* Don't allow commits to protected branches. */
-  "git.branchProtectionPrompt": "alwaysPrompt",
-  "git.branchProtection": [
-    // "stable",
-    // "release/*",
-  ],
-
+  /* Disable auto-formatting and validation for JavaScript/TypeScript. These
+  settings MUST be applied at the workspace level. */
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "js/ts.implicitProjectConfig.checkJs": false,
 }
