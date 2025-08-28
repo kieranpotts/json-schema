@@ -4,7 +4,9 @@
 Schema: link:../src/address.schema.json[address.schema.json]
 ****
 
-This schema defines an address structure with medium-grained fields and a fairly generic nomenclature. For example, `admin_area_level_1` may be used interchangeably for state, province, county, or prefecture (which are locale-specific terms).
+Address formats https://w3c.github.io/i18n-drafts/questions/qa-address-formats.en.html[vary widely around the world], and there is no single address format that works for all countries. This makes it difficult to define a standard address entity for global applications.
+
+This schema offers a portable address structure that can be used to capture addresses from any place in the world. It is designed to be flexible enough to handle a wide variety of address formats. This is achieved by defining medium-grained fields and a fairly generic nomenclature. For example, `admin_area_level_1` may be used interchangeably for state, province, county, or prefecture (which are locale-specific terms).
 
 This schema is based on PayPal's"portable address" schema, which is designed to support addresses in any country, and to be backwards compatible with http://microformats.org/wiki/adr[the address hcard microformat], forwards compatible with Google's open source https://github.com/googlei18n/libaddressinput/wiki/AddressValidationMetadata[address validation metadata] and the W3C's https://www.w3.org/TR/html51/sec-forms.html#autofill-field[HTML5.1 autofill fields], and to allow for easy mapping to and from other common address schema.
 
