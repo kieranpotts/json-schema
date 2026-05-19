@@ -1,18 +1,15 @@
-= JSON Patch item
+# JSON Patch item
 
-****
-Schema: link:../src/json-patch-item.schema.json[json-patch-item.schema.json]
-****
+**Schema:** [json-patch-item.schema.json](../src/json-patch-item.schema.json)
 
 This schema defines a JSON Patch object, which is used to apply partial updates to resources in HTTP APIs.
 
-== Valid examples
+## Valid examples
 
-[source,json]
-----
+```json
 {
   op: 'replace',
   path: '/name',
   value: 'New Name'
 }
-----
+```

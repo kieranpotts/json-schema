@@ -1,17 +1,14 @@
-= Person name
+# Person name
 
-****
-Schema: link:../src/person-name.schema.json[oerson-name.schema.json]
-****
+**Schema:** [person-name.schema.json](../src/person-name.schema.json)
 
 This schema defines a person, split into prefix, given name, middle name, surname, and suffix. Also includes an optional input for an alternative full name.
 
-== Valid examples
+## Valid examples
 
-[source,json]
-----
+```json
 {
   given_name: 'John',
   surname: 'Doe'
 }
-----
+```

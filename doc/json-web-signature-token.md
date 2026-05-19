@@ -1,0 +1,11 @@
+# JSON Web Signature (JWS) token
+
+**Schema:** [json-web-signature-token.schema.json](../src/json-web-signature-token.schema.json)
+
+This schema defines a JWS token, as specified in [IETF RFC 7515](https://www.rfc-editor.org/rfc/rfc7515.txt). JWS tokens are used to sign content.
+
+## Valid examples
+
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+```

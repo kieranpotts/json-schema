@@ -1,0 +1,17 @@
+# Province
+
+**Schema:** [province.schema.json](../src/province.schema.json)
+
+This schema defines a state or province code, based on [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) definitions.
+
+## Valid examples
+
+```json
+{
+  province_code: "US-CA",
+  country_code: "US",
+  local_name: "California",
+  latin_name: "California",
+  abbreviation: "CA"
+}
+```
