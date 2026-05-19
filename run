@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# ==============================================================================
+#
 # Run any NPM script in a container named "json-schema" from an image built from
 # the Dockerfile in this directory.
 #
@@ -9,7 +9,7 @@
 #
 # Example - to run the tests:
 #   ./run test
-# ==============================================================================
+#
 
 # Immediately exit from this script if any command within it returns a
 # non-zero exit status (indicating an error).
