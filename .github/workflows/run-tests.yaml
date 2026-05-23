@@ -1,3 +1,8 @@
+#
+# Run tests on pull requests and new commits to the
+# main trunk.
+#
+
 name: Run tests
 
 on:
