@@ -55,6 +55,6 @@ To run the tests, run the following command from the root directory of this repo
 
 - [PayPal JSON Schema](https://github.com/levid-gc/paypal-api-standards/tree/master/v1/schema/json/draft-04)
 
----
+-----
 
 Copyright © 2020-present Kieran Potts, [MIT license](./LICENSE.txt)
