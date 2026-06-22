@@ -3,7 +3,7 @@
 # main trunk.
 #
 
-name: Run tests
+name: Run Tests
 
 on:
   push:
