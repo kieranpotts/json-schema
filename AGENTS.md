@@ -65,9 +65,9 @@ This project follows Kieran Potts' technical standards. Read the relevant
 standard(s) below for the current task; their RFC 2119 rules MUST be followed
 unless explicitly overridden elsewhere in this file.
 
-- **[TS-9: Version Control](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/009/AGENTS.md)**
-- **[TS-13: Functional Testing](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/013/AGENTS.md)**
-- **[TS-25: Technical Documentation](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/025/AGENTS.md)**
-- **[TS-29: JSON Schema](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/029/AGENTS.md)**
-- **[TS-58: Docker](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/058/AGENTS.md)**
-- **[TS-60: GitHub Actions](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/060/AGENTS.md)**
+- **[TS-9: Version Control](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/modules/ROOT/partials/009/AGENTS.md)**
+- **[TS-13: Functional Testing](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/modules/ROOT/partials/013/AGENTS.md)**
+- **[TS-25: Technical Documentation](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/modules/ROOT/partials/025/AGENTS.md)**
+- **[TS-29: JSON Schema](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/modules/ROOT/partials/029/AGENTS.md)**
+- **[TS-58: Docker](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/modules/ROOT/partials/058/AGENTS.md)**
+- **[TS-60: GitHub Actions](https://raw.githubusercontent.com/kieranpotts/standards/refs/heads/latest/dev/src/modules/ROOT/partials/060/AGENTS.md)**
