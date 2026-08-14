@@ -61,13 +61,29 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 ## References
 
-This project follows Kieran Potts' technical standards. Read the relevant
-standard(s) below for the current task. Their RFC 2119 rules MUST be followed
-unless explicitly overridden elsewhere in this file.
+The following technical standards (TS) govern this project. Fetch and ingest
+the relevant standards as-and-when required for the task at hand.
 
-- **[TS-9: Version Control](https://kieranpotts.com/standards/009)**
-- **[TS-13: Functional Testing](https://kieranpotts.com/standards/013)**
-- **[TS-25: Technical Documentation](https://kieranpotts.com/standards/025)**
-- **[TS-29: JSON Schema](https://kieranpotts.com/standards/029)**
-- **[TS-58: Docker](https://kieranpotts.com/standards/058)**
-- **[TS-60: GitHub Actions](https://kieranpotts.com/standards/060)**
+- [**TS-9: Version Control**](https://kieranpotts.com/standards/009) \
+  Use when working with Git. Covers commits, branching, merging, integration
+  strategies, cutting releases, and configuring Git/PR/CI tooling.
+
+- [**TS-13: Functional Testing**](https://kieranpotts.com/standards/013) \
+  Use when designing, writing, or reviewing functional tests. Covers test
+  strategy, types, levels, coverage, test doubles, and TDD.
+
+- [**TS-25: Technical Documentation**](https://kieranpotts.com/standards/025) \
+  Use when deciding what documentation a project needs, where it should live,
+  who it's for, or whether it's still trustworthy.
+
+- [**TS-29: JSON Schema**](https://kieranpotts.com/standards/029) \
+  Use when designing or using JSON Schema. Covers validation, `$ref`, OpenAPI,
+  JSON-LD, and JSON Pointer.
+
+- [**TS-58: Docker**](https://kieranpotts.com/standards/058) \
+  Use when designing Dockerfiles, building Docker images, or running Docker
+  containers.
+
+- [**TS-60: GitHub Actions**](https://kieranpotts.com/standards/060) \
+  Use when designing, authoring, reviewing, or securing GitHub Actions workflows
+  or custom actions.
