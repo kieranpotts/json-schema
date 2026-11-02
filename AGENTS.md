@@ -44,7 +44,13 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 - `./run test` \
   Builds the Docker image and runs `npm test` (Jest) inside a container.
   The only local requirement is Docker. All other dependencies install
-  inside the image.
+  inside the image. Run it in a terminal on the host. The workspace
+  devcontainer has no Docker, so the `test` script stops with an error when
+  it's run in the devcontainer.
+
+- `npm ci` \
+  Installs the Node/npm dependencies locally, eg. in the workspace
+  devcontainer. Run it by hand before `npm test`.
 
 - `npm test` \
   Runs the Jest suite directly, if Node/npm dependencies are already
